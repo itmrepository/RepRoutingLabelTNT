@@ -229,6 +229,7 @@
 #weightDetailHighlighted {
     font-size: 16px;
     font-weight: bold;
+    line-height: 100%;
     background-color: black;
     color: white;
 }
@@ -320,13 +321,14 @@
     font-size: 10px;
 }
 
-#deliveryContact {
+#originAddress {
     position: absolute;
     top: 161px;
     left: 1px;
     width: 162px;
     height: 70px;
     padding-left: 3px;
+    line-height: 70%;
     background-color: #FFFFFF;
     border-right-width: 1px;
     border-right-style: solid;
@@ -338,39 +340,11 @@
     text-align: left;
 }
 
-#deliveryContactHeader {
-    font-size: 11px; font-weight: bold;
-}
-
-#deliveryContactDetail {
-    font-size: 11px;
-    padding-left: 10px;
-    padding-top: 1px;
-}
-
-#senderAddress {
-    position: absolute;
-    top: 161px;
-    left: 1px;
-    width: 162px;
-    height: 70px;
-    padding-left: 3px;
-    background-color: #FFFFFF;
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-style: dashed;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-color: black;
-    text-align: left;
-}
-
-#senderAddressHeader {
+#originAddressHeader {
     font-size: 9px;
 }
 
-#senderAddressDetail {
+#originAddressDetail {
     font-size: 9px;
     padding-left: 10px;
 }
@@ -382,6 +356,7 @@
     width: 162px;
     height: 70px;
     padding-left: 3px;
+    line-height: 70%;
     background-color: #FFFFFF;
     border-right-width: 1px;
     border-right-style: solid;
@@ -554,4 +529,3 @@
     width: 327px;
     font-size: 9px;
 }
-
